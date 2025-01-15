@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/contexts/ThemeContext";
 import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fontlab.digitalnovastudio.com"),
   title: "FontLab - Typography Scale Generator",
   description:
     "Create consistent typography scales for your Tailwind CSS projects with DigitalNova FontLab. Features preset ratios, real-time preview, and automatic config generation.",
@@ -52,10 +53,10 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable}`}>
+    <html lang="en" className={`${GeistSans.variable} dark`}>
       <body className="min-h-screen bg-zinc-900">
         <ThemeProvider>
-          <main className="from-background via-background3 to-background text-foreground min-h-screen bg-gradient-to-r">
+          <main className="from-background via-background3 to-background text-foreground min-h-screen bg-gradient-to-r antialiased">
             <NavBar />
             {children}
           </main>
