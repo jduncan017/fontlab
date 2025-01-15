@@ -21,7 +21,7 @@ export default function HowToUse() {
             The h1-h6 classes will automatically apply to their corresponding
             HTML elements, making semantic markup straightforward:
           </p>
-          <pre className="rounded bg-zinc-100 p-2 dark:bg-zinc-800">
+          <pre className="bg-background2 text-foreground2 rounded p-2">
             <code>{`<h1>This gets h1 styling</h1>
 <h2>This gets h2 styling</h2>`}</code>
           </pre>

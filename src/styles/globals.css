@@ -24,8 +24,20 @@
     --primary: #0ea5e9;
     --primary-foreground: #f8fafc;
   }
-}
 
-body {
-  @apply bg-background text-foreground;
+  html {
+    @apply bg-background text-foreground;
+  }
+
+  body {
+    @apply bg-background text-foreground min-h-screen;
+  }
+
+  pre {
+    @apply bg-background2 text-foreground2;
+  }
+
+  code {
+    @apply font-mono;
+  }
 }
