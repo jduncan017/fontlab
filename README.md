@@ -1,29 +1,56 @@
-# Create T3 App
+# FontLab - Typography Scale Generator
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+FontLab is a modern web application that helps developers and designers create consistent typography scales for their Tailwind CSS projects. Built with Next.js, TypeScript, and Tailwind CSS.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- **Interactive Typography Scale Generator**
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+  - Choose from popular scale ratios (Golden Ratio, Perfect Fifth, etc.)
+  - Customize base font size and line height
+  - Real-time preview of typography scale
+  - Support for both pixel and rem units
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- **Preset Scale Ratios**
 
-## Learn More
+  - Modern Web (3x)
+  - Golden Ratio (1.618x)
+  - Perfect Fifth (1.5x)
+  - Perfect Fourth (1.333x)
+  - Major Third (1.25x)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- **Customization Options**
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+  - Header and body font selection
+  - Custom line height settings
+  - Manual size adjustments
+  - Dark/Light theme toggle
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- **Export Options**
+  - Generate Tailwind CSS configuration
+  - Copy configuration to clipboard
+  - Preview all typography sizes
 
-## How do I deploy this?
+## Getting Started
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```bash
+# Clone the repository
+git clone https://github.com/jduncan017/fontlab.git
+
+# Install dependencies
+pnpm install
+
+# Start the development server
+pnpm dev
+```
+
+## Built With
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
