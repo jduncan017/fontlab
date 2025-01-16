@@ -29,17 +29,17 @@ export default function NavBar() {
 
   return (
     <header className="NavBar bg-background2 shadow-themeBase text-foreground2">
-      <nav className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+      <nav className="mx-auto px-4 py-2.5 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="h-full">
             <Link href="https://www.digitalnovastudio.com">
               <Image
                 src={logo}
                 alt="DigitalNova"
-                className="h-full w-auto"
-                width={504}
-                height={143}
+                className=""
+                width={210}
+                height={58}
               />
             </Link>
           </div>

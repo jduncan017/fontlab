@@ -2,13 +2,13 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 export default function HowToUse() {
   return (
-    <Card className="shadow-themeBase">
+    <Card className="">
       <CardHeader>
         <CardTitle>How to Use This Tool</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <p>
-          This tool helps you create a consistent typography scale for your
+          This tool helps to create a consistent typography scale for your
           Tailwind CSS project. The generated config provides two ways to apply
           your typography:
         </p>
@@ -21,7 +21,7 @@ export default function HowToUse() {
             The h1-h6 classes will automatically apply to their corresponding
             HTML elements, making semantic markup straightforward:
           </p>
-          <pre className="bg-background2 text-foreground2 rounded p-2">
+          <pre className="bg-background3 text-foreground3 rounded px-4 py-3">
             <code>{`<h1>This gets h1 styling</h1>
 <h2>This gets h2 styling</h2>`}</code>
           </pre>

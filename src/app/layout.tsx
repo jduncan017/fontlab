@@ -56,7 +56,7 @@ export default function RootLayout({
     <html lang="en" className={`${GeistSans.variable} dark`}>
       <body className="min-h-screen bg-zinc-900">
         <ThemeProvider>
-          <main className="from-background via-background3 to-background text-foreground min-h-screen bg-gradient-to-r antialiased">
+          <main className="from-P4 via-P3 to-P4 text-foreground min-h-screen bg-gradient-to-r">
             <NavBar />
             {children}
           </main>

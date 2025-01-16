@@ -6,10 +6,10 @@
   :root {
     --background: #ffffff;
     --foreground: #111313;
-    --background2: #e2e2e2;
-    --foreground2: #0c0e0e;
-    --background3: #2d3131;
-    --foreground3: #ffffff;
+    --background2: #cfcfcf;
+    --foreground2: #131616;
+    --background3: #e9e9e9;
+    --foreground3: #2d3131;
     --primary: #0ea5e9;
     --primary-foreground: #f8fafc;
   }
@@ -17,8 +17,8 @@
   .dark {
     --background: #111313;
     --foreground: #f8fafc;
-    --background2: #0c0e0e;
-    --foreground2: #e2e2e2;
+    --background2: #131616;
+    --foreground2: #cfcfcf;
     --background3: #2d3131;
     --foreground3: #ffffff;
     --primary: #0ea5e9;

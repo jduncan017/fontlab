@@ -81,7 +81,7 @@ ${sizeEntries}
               <Copy className="h-5 w-5" />
             )}
           </button>
-          <pre className="overflow-x-auto rounded-lg bg-zinc-100 p-4 dark:bg-zinc-900 dark:text-white">
+          <pre className="bg-background3 overflow-x-auto rounded-lg p-4 dark:text-white">
             <code>{getTailwindConfig()}</code>
           </pre>
         </div>
