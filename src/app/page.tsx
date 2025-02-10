@@ -87,7 +87,7 @@ const TypographyPreview = () => {
   };
 
   return (
-    <div className="mx-auto w-full max-w-4xl space-y-8 p-6">
+    <div className="Page mx-auto flex w-full flex-wrap space-y-8 p-6">
       <HowToUse />
 
       <Card className="shadow-themeBase">
