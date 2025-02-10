@@ -18,7 +18,7 @@ export default function PreviewSection({
   unit,
 }: PreviewSectionProps) {
   return (
-    <Card className="dark:bg-zinc-900">
+    <Card className="PreviewSection w-full dark:bg-zinc-900">
       <CardHeader>
         <CardTitle>Preview</CardTitle>
       </CardHeader>

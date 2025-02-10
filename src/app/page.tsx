@@ -87,10 +87,19 @@ const TypographyPreview = () => {
   };
 
   return (
-    <div className="Page mx-auto flex w-full flex-wrap space-y-8 p-6">
+    <div className="Page mx-auto flex w-fit flex-col items-center space-y-10 p-10">
+      <Card className="flex w-full flex-col gap-4 p-20">
+        <h1 className="text-5xl font-bold">
+          Welcome to The DigitalNova Fontlab
+        </h1>
+        <p className="text-lg">
+          A tool that helps you create consistent typography scaling for your
+          Tailwind CSS projects.
+        </p>
+      </Card>
       <HowToUse />
 
-      <Card className="shadow-themeBase">
+      <Card className="TypographyConfig w-full shadow-themeBase">
         <CardHeader>
           <CardTitle>Typography Configuration</CardTitle>
         </CardHeader>

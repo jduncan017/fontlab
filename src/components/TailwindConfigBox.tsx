@@ -65,7 +65,7 @@ ${sizeEntries}
   };
 
   return (
-    <Card className="shadow-themeBase">
+    <Card className="TailwindConfigBox w-full shadow-themeBase">
       <CardHeader>
         <CardTitle>Tailwind Configuration</CardTitle>
       </CardHeader>
@@ -81,7 +81,7 @@ ${sizeEntries}
               <Copy className="h-5 w-5" />
             )}
           </button>
-          <pre className="bg-background3 overflow-x-auto rounded-lg p-4 dark:text-white">
+          <pre className="overflow-x-auto rounded-lg bg-background3 p-4 dark:text-white">
             <code>{getTailwindConfig()}</code>
           </pre>
         </div>
